@@ -1,1 +1,26 @@
 ejemplo de inicialización de repositorio local en una carpeta con git init...
+    git init --> crea un repositorio en la ruta de la carpeta actual
+    git status --> estado actual de los archivos del repositorio, informa de cambios que deban ser añadidos a un 
+    próximo commit y sirve para confirmar la existencia del repositorio
+    git add "x.formato" --> Ingresa un archivoX.suformato al nuevo commit a realizar
+    git add . --> agrega todos los archivos existentes al siguiente commit 
+    OJO --> las "" son indispensables si el nombre del archivo tiene saltos de barra espaciadora
+    OJO --> gir add es antes de git commit, sino ingresamos algo nuevo, por lógica no hay necesidad de hacer un nuevo commit
+     git commit -m "X mensaje" --> Instrucción para "tomar captura" del estado actual de los archivos que contiene  
+    el repositorio en cuestión y guarda dicha información en la carpeta oculta ".git", -m sirve para añadir una 
+    descripción que informe sobre los cambios que sufrieron los archivos
+    git log --> carga todos los commits existentes junto a sus respectivas descripciones
+    cd --> sale de la ruta actual y va al por defecto "NombreUsuario@NombreDelDipositivoPC MINGW64 ~"
+    cd /Xcarpeta/ ó "X nombre" --> se dirige a la ruta específica o entra a la carpeta especificada si es que está dentro del directorio actual
+    cd .. --> retrocede una carpeta de la ruta actual
+    git push origin main --> origin indica el origen a donde se enviará la información y main indica la rama de trabajo a la cuál enviaremos la info
+    git branch -M Xnombre --> modifica el nombre de la rama de trabajo   
+    git remote add origin Xurl --> Indica a Git que haga una conexión remota desde nuestro repositorio local con el espacio de trabajo en la cuenta de GitHub             
+    con nuesto nombre y el nombre del repositorio que le dimos al repositorio en la nube
+    git remote add origin --> establece una conexión entre tu repositorio Git local y el repositorio remoto en la URL proporcionada, y lo etiqueta con el 
+    nombre "origin". Esto te permite interactuar con el repositorio remoto utilizando el nombre "origin" en lugar de la URL completa en los comandos Git, lo 
+    que hace que las operaciones de push y pull sean más fáciles de realizar.
+    git branch -M main --> -M cambia el nombre de la rama a main
+    git push -u origin main --> En resumen, git push -u origin main envía los cambios de tu rama local "main" al repositorio remoto "origin" y establece una  
+    relación de seguimiento entre tu rama local "main" y la rama remota "main" en ese repositorio, lo que facilita las futuras operaciones de envío y 
+    recepción de cambios.
