@@ -24,3 +24,6 @@ ejemplo de inicialización de repositorio local en una carpeta con git init...
     git push -u origin main --> En resumen, git push -u origin main envía los cambios de tu rama local "main" al repositorio remoto "origin" y establece una  
     relación de seguimiento entre tu rama local "main" y la rama remota "main" en ese repositorio, lo que facilita las futuras operaciones de envío y 
     recepción de cambios.
+
+    //TEXTO PARA TERCER COMMIT
+    Prueba de 3re commit :)
